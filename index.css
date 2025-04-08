@@ -1,0 +1,61 @@
+:root {
+    --pink: #ff00ff;
+    --cyan: #00ffcc;
+}
+
+body {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #0d0d0d;
+    color: var(--cyan);
+    text-shadow: 0 0 5px var(--cyan), 0 0 10px var(--cyan), 0 0 20px var(--cyan);
+  }
+  
+  .container {
+    width: min(70ch, 100% - 3rem);
+    margin-inline: auto;
+    margin-top: 4rem;
+  }
+  
+  h1 {
+    color: var(--pink);
+    text-transform: uppercase;
+    text-shadow: 0 0 5px var(--pink), 0 0 10px var(--pink), 0 0 20px var(--pink);
+  }
+  
+  button {
+    font-family: "Orbitron", sans-serif;
+    background-color: var(--cyan); /* Change background color to the glow color */
+    color: #000;
+    padding: 0.4em 1em;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase; /* Transform text to uppercase */
+    font-size: 1.2em; /* Make text larger */
+    text-shadow: 0 0 5px var(--cyan), 0 0 10px var(--cyan), 0 0 20px var(--cyan);
+    box-shadow: 0 0 5px var(--cyan), 0 0 10px var(--cyan), 0 0 20px var(--cyan);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: var(--pink); /* Change background color on hover */
+    box-shadow: 0 0 10px var(--pink), 0 0 20px var(--pink), 0 0 30px var(--pink);
+  }
+  
+  p {
+    margin: 20px 0;
+    text-shadow: 0 0 5px var(--cyan), 0 0 10px var(--cyan), 0 0 20px var(--cyan);
+  }
+  
+  .dataStolen {
+    font-weight: bold;
+    color: var(--pink);
+    text-shadow: 0 0 5px var(--pink), 0 0 10px var(--pink), 0 0 20px var(--pink);
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
